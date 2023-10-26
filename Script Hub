@@ -1,0 +1,11 @@
+--[[ Key System Key = "PousScriptHub"
+       ___       _               _     _ _                          
+      / _ \ _ __(_) ___  _ __   | |   (_) |__  _ __ __ _ _ __ _   _ 
+     | | | | '__| |/ _ \| '_ \  | |   | | '_ \| '__/ _` | '__| | | |
+     | |_| | |  | | (_) | | | | | |___| | |_) | | | (_| | |  | |_| |
+      \___/|_|  |_|\___/|_| |_| |_____|_|_.__/|_|  \__,_|_|   \__, |
+                                                              |___/ 
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/poupeue/PouPeuu_V2s-Script-Hub/main/Script",true))()
+print("Success")
+pcall(function() keypress(Enum.KeyCode[string.upper("F9")]) end)
